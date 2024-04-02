@@ -1,0 +1,87 @@
+.first nav{
+    background-color: black;
+
+}
+body{
+    background-color: black;
+}
+footer{
+       width: 80%;
+       /*display:flex: ;*/
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    gap: 50px;
+    border-color: wheat;
+    
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+body{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    color: aliceblue;
+
+} 
+.sub{
+    width:50%
+}
+.h3{
+    display: flex;
+    justify-content: start;
+    margin-left: 0px;
+    padding-left: 0px;
+    align-items: start;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+/*button{}*/
+.contact { 
+    background-color: rgb(255, 255, 255); 
+    color: black; 
+    padding: 10px;
+}
+.hero{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red
+
+}
+.hero p{
+    font-size:20px;
+    text-align: center;
+}
+
+
+.debug{
+    border: 1px solid red;
+}
+
